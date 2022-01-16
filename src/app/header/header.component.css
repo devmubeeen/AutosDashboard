@@ -1,0 +1,19 @@
+.navbar{
+	padding: 0;
+}
+.navbar.bg-light{
+	background-color: #ffffff !important;
+}
+.navbar .navbar-header{
+	background: #ffffff;
+	box-shadow: 6px 0 4px -4px rgba(0, 0, 0, 0.075), -6px 0 4px -4px #ffffff; 
+	width: 239px;
+	padding: 10px 15px;
+}
+.navbar .navbar-header a{
+	text-decoration: none;
+	color: #000000;
+}
+.navbar .navbar-header img{
+	width: 40px;
+}

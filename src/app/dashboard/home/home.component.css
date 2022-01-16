@@ -1,0 +1,46 @@
+.dashboard{
+	background-color: #ffffff;
+	margin-left: 250px;
+}
+.main_header{
+	position: relative;
+}
+.main_header .card{
+	border: transparent;
+}
+.main_header .loan_card{
+	background-image: linear-gradient(#1e3598, #4360d0);
+	color: #ffffff;
+	text-align: left;
+	padding: 70px;
+	position: absolute;
+	top:0;
+	right:0;
+	width: 35%;
+	height: 425px;
+}
+.card.loan_card h5 {
+	font-size: 45px;
+}
+.used_car .card{
+	position: relative;
+	border: transparent;
+}
+.used_car .card .card-body{
+	width: 300px;
+	height: 250px;
+	border-radius: 3px;
+	position: absolute;
+	background: rgba(17, 17, 17, 0.521);
+	color: #ffffff;
+	padding: 30px;
+	top: 90px;
+	left: 45px;
+}
+.used_car .card .card-body h5{
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.used_car .card .card-body .btn-dark{
+	background-color: rgba(20, 20, 20, 0.747) !important;
+}
